@@ -47,6 +47,10 @@ body{
     padding-top: 12px;
 }
 
+#tabs-top a:hover{
+    color: #121212;
+}
+
 /*============ MAIN-HOME ============*/
 
 #main-home{
@@ -75,6 +79,9 @@ body{
     text-align: center;
     text-decoration: none;
     padding-top: 12px;
+}
+#tabs-bottom a:hover{
+    color: #121212
 }
 
 /*================ MAIN ============*/
@@ -152,8 +159,8 @@ a.info-box{
 /*================ WEATHER ============*/
 
 img.info-box-weather-icon{
-    height: 30px;
-    width: 30px !important;
+    height: 75px;
+    width: 75px !important;
     margin: 10;
     float: left
 }
@@ -194,7 +201,9 @@ textarea{
     padding: 8px 0;
 }
 
-
+p{
+    text-align: center;
+}
 
 
 
